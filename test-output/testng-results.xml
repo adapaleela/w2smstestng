@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="24" passed="23">
+  <reporter-output>
+    <line>
+      <![CDATA[login test failed]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file:///E:\leelajava\w2smstestng\02-02-2019-08-12-08.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[blank mobile number test passed]]>
+    </line>
+    <line>
+      <![CDATA[wrong size mobile number test passed]]>
+    </line>
+    <line>
+      <![CDATA[invalid mobile number test passed]]>
+    </line>
+    <line>
+      <![CDATA[blank password number test passed]]>
+    </line>
+    <line>
+      <![CDATA[invalid password test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="180976" started-at="2019-02-02T14:40:44Z" finished-at="2019-02-02T14:43:45Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="92661" started-at="2019-02-02T14:40:44Z" finished-at="2019-02-02T14:42:17Z">
+      <class name="tests.Way2smstestng">
+        <test-method status="PASS" signature="launch()[pri:1, instance:tests.Way2smstestng@482f8f11]" name="launch" duration-ms="73354" started-at="2019-02-02T14:40:44Z" finished-at="2019-02-02T14:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:tests.Way2smstestng@482f8f11]" name="login" duration-ms="9632" started-at="2019-02-02T14:41:58Z" finished-at="2019-02-02T14:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864149]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.Way2smstestng@482f8f11]" name="validateLogin" duration-ms="8793" started-at="2019-02-02T14:42:07Z" finished-at="2019-02-02T14:42:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864149]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at tests.Way2smstestng.validateLogin(Way2smstestng.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[login test failed]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file:///E:\leelajava\w2smstestng\02-02-2019-08-12-08.png" alt=""/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeSite()[pri:4, instance:tests.Way2smstestng@482f8f11]" name="closeSite" duration-ms="702" started-at="2019-02-02T14:42:16Z" finished-at="2019-02-02T14:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- tests.Way2smstestng -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="18048" started-at="2019-02-02T14:42:18Z" finished-at="2019-02-02T14:42:36Z">
+      <class name="tests.Way2smstestng">
+        <test-method status="PASS" signature="launch()[pri:1, instance:tests.Way2smstestng@47c62251]" name="launch" duration-ms="9330" started-at="2019-02-02T14:42:18Z" finished-at="2019-02-02T14:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:tests.Way2smstestng@47c62251]" name="login" duration-ms="6173" started-at="2019-02-02T14:42:27Z" finished-at="2019-02-02T14:42:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.Way2smstestng@47c62251]" name="validateLogin" duration-ms="247" started-at="2019-02-02T14:42:33Z" finished-at="2019-02-02T14:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[blank mobile number test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeSite()[pri:4, instance:tests.Way2smstestng@47c62251]" name="closeSite" duration-ms="2288" started-at="2019-02-02T14:42:34Z" finished-at="2019-02-02T14:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- tests.Way2smstestng -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="18072" started-at="2019-02-02T14:42:36Z" finished-at="2019-02-02T14:42:54Z">
+      <class name="tests.Way2smstestng">
+        <test-method status="PASS" signature="launch()[pri:1, instance:tests.Way2smstestng@1bce4f0a]" name="launch" duration-ms="9548" started-at="2019-02-02T14:42:36Z" finished-at="2019-02-02T14:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:tests.Way2smstestng@1bce4f0a]" name="login" duration-ms="6141" started-at="2019-02-02T14:42:45Z" finished-at="2019-02-02T14:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.Way2smstestng@1bce4f0a]" name="validateLogin" duration-ms="120" started-at="2019-02-02T14:42:52Z" finished-at="2019-02-02T14:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[wrong size mobile number test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeSite()[pri:4, instance:tests.Way2smstestng@1bce4f0a]" name="closeSite" duration-ms="2245" started-at="2019-02-02T14:42:52Z" finished-at="2019-02-02T14:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- tests.Way2smstestng -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="15623" started-at="2019-02-02T14:42:54Z" finished-at="2019-02-02T14:43:10Z">
+      <class name="tests.Way2smstestng">
+        <test-method status="PASS" signature="launch()[pri:1, instance:tests.Way2smstestng@6a41eaa2]" name="launch" duration-ms="8675" started-at="2019-02-02T14:42:54Z" finished-at="2019-02-02T14:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:tests.Way2smstestng@6a41eaa2]" name="login" duration-ms="6363" started-at="2019-02-02T14:43:03Z" finished-at="2019-02-02T14:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.Way2smstestng@6a41eaa2]" name="validateLogin" duration-ms="223" started-at="2019-02-02T14:43:09Z" finished-at="2019-02-02T14:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leela1993]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[invalid mobile number test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeSite()[pri:4, instance:tests.Way2smstestng@6a41eaa2]" name="closeSite" duration-ms="332" started-at="2019-02-02T14:43:09Z" finished-at="2019-02-02T14:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- tests.Way2smstestng -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="16915" started-at="2019-02-02T14:43:10Z" finished-at="2019-02-02T14:43:27Z">
+      <class name="tests.Way2smstestng">
+        <test-method status="PASS" signature="launch()[pri:1, instance:tests.Way2smstestng@39c0f4a]" name="launch" duration-ms="7998" started-at="2019-02-02T14:43:10Z" finished-at="2019-02-02T14:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:tests.Way2smstestng@39c0f4a]" name="login" duration-ms="6533" started-at="2019-02-02T14:43:18Z" finished-at="2019-02-02T14:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864149]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.Way2smstestng@39c0f4a]" name="validateLogin" duration-ms="159" started-at="2019-02-02T14:43:24Z" finished-at="2019-02-02T14:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864149]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[blank password number test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeSite()[pri:4, instance:tests.Way2smstestng@39c0f4a]" name="closeSite" duration-ms="2218" started-at="2019-02-02T14:43:24Z" finished-at="2019-02-02T14:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- tests.Way2smstestng -->
+    </test> <!-- Test5 -->
+    <test name="Test6" duration-ms="18681" started-at="2019-02-02T14:43:27Z" finished-at="2019-02-02T14:43:45Z">
+      <class name="tests.Way2smstestng">
+        <test-method status="PASS" signature="launch()[pri:1, instance:tests.Way2smstestng@548e7350]" name="launch" duration-ms="9336" started-at="2019-02-02T14:43:27Z" finished-at="2019-02-02T14:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:tests.Way2smstestng@548e7350]" name="login" duration-ms="6748" started-at="2019-02-02T14:43:36Z" finished-at="2019-02-02T14:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864149]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leela1994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.Way2smstestng@548e7350]" name="validateLogin" duration-ms="114" started-at="2019-02-02T14:43:43Z" finished-at="2019-02-02T14:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7674864149]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leela1994]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[invalid password test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeSite()[pri:4, instance:tests.Way2smstestng@548e7350]" name="closeSite" duration-ms="2437" started-at="2019-02-02T14:43:43Z" finished-at="2019-02-02T14:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- tests.Way2smstestng -->
+    </test> <!-- Test6 -->
+  </suite> <!-- Suite -->
+</testng-results>

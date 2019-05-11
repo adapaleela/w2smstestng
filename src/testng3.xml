@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+  	<parameter name="m" value="7674864149"/>
+  	<parameter name="mc" value="valid"/>
+  	<parameter name="p" value="leela1993"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Way2smstestng"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+  	<parameter name="m" value=""/>
+  	<parameter name="mc" value="invalid"/>
+  	<parameter name="p" value="leela1993"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Way2smstestng"/>
+    </classes>
+  </test> 
+  <test name="Test3">
+  	<parameter name="m" value="7674"/>
+  	<parameter name="mc" value="invalid"/>
+  	<parameter name="p" value="leela1993"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Way2smstestng"/>
+    </classes>
+  </test> 
+  <test name="Test4">
+  	<parameter name="m" value="7674864000"/>
+  	<parameter name="mc" value="invalid"/>
+  	<parameter name="p" value="leela1993"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Way2smstestng"/>
+    </classes>
+  </test> 
+  <test name="Test5">
+  	<parameter name="m" value="7674864149"/>
+  	<parameter name="mc" value="valid"/>
+  	<parameter name="p" value=""/>
+  	<parameter name="pc" value="invalid"/>
+    <classes>
+      <class name="tests.Way2smstestng"/>
+    </classes>
+  </test> 
+  <test name="Test6">
+  	<parameter name="m" value="7674864149"/>
+  	<parameter name="mc" value="valid"/>
+  	<parameter name="p" value="leela1994"/>
+  	<parameter name="pc" value="invalid"/>
+    <classes>
+      <class name="tests.Way2smstestng"/>
+    </classes>
+  </test> 
+</suite>
